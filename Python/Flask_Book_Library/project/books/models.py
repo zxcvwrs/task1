@@ -13,8 +13,6 @@ class Book(db.Model):
     status = db.Column(db.String(20), default='available')
 
     def __init__(self, name, author, year_published, book_type, status='available'):
-        if not re.match("^[a-zA-Z]{1,10}$", name):
-            raise ValueError("Name must contain only letters (a-zA-Z) and have a maximum length of 10.")
         self.name = name
         self.author = author
         self.year_published = year_published
