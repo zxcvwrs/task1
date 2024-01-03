@@ -103,26 +103,6 @@ W wyniku tych operacji na stacji roboczej zostanie uruchomiony kontener dockerow
 
    **Uwaga - weryfikacja ma być zrealizowana na poziomie tworzenia obiektu w backendzie, a nie na poziomie wyświetlania go.**
 
-4. **Przesłanie wyników**
-
-   Wynikiem ćwiczenia ma być przygotowany `Pull Request` z zaimplementowaną poprawką. Informacje jak przygotować `Pull Request` znajdują się [tutaj](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
-
-   Co musi zawierać `Pull Request`:
-    - W opisie musi znaleźć się informacja o znalezionej podatności - co to za podatność, gdzie została znaleziona, sposób jej odtworzenia oraz screen udowadniający jej wystąpienie.
-    - Commit (zmianę w kodzie), która zawiera wprowadzoną zmianę.
-
-   **Oceniany będzie przygotowany `Pull Request`.**
-
-   **Aby podesłać zadanie do oceny, konieczne jest nadanie uprawnienia do repozytorium użytkownikowi o nazwie `siewer` - instrukcja jak nadać dostęp do repozytorium znajduje się [tutaj](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository).**
-
-   **Punktowane będzie wykonanie zadania tylko dla 1 aplikacji - wykonanie zadania zarówno dla aplikacji Java i Python nie będzie dodatkowo punktowane. Możliwe jest jednak uzyskanie dodatkowego punktu (ponad 5) w przypadku zaimplementowania mechanizmu testowania danych wejściowych w scenariuszu weryfikacji poprawnego i niepoprawnego wariantu.**
-
-# Punktowanie (ćwiczenie oceniane w skali 0-5 pkt):
-- 1 punkt za zadanie `Domain Driven Design` (weryfikacja pliku `DDD.md`)
-- 1 punkt za udokumentowanie wystąpienia podatności `XSS`
-- 2 punkty za implementację poprawki
-- 1 punkt za poprawnie stworzony `Pull Request`
-- 1 BONUSowy punkt za zaimplementowany test jednostkowy weryfikujący walidator
 
 ## Credits
 * Java application - [GitHub Repo](https://github.com/pedrohenriquelacombe/spring-thymeleaf-crud-example)
