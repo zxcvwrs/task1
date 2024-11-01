@@ -102,6 +102,28 @@ W wyniku tych operacji na stacji roboczej zostanie uruchomiony kontener dockerow
    Jak tylko zidentyfikowane zostanie miejsce, w którym istnieje podatność typu XSS, konieczne jest zaproponowanie sposobu jej usunięcia. Otwórz kod źródłowy (via IDE albo web IDE na GitHub) a następnie zidentyfikuj miejsce, które odpowiada za reprezentację obiektu, w ramach którego znaleziono błąd bezpieczeństwa. Zaproponuj założenia dotyczące weryfikacji danych wejściowych, a następnie zaimplementuj weryfikację.
 
    **Uwaga - weryfikacja ma być zrealizowana na poziomie tworzenia obiektu w backendzie, a nie na poziomie wyświetlania go.**
+Przesłanie wyników
+
+4. **Przesłanie wyników**
+
+   Wynikiem ćwiczenia ma być przygotowany Pull Request z zaimplementowaną poprawką. Informacje jak przygotować Pull Request znajdują się tutaj.
+
+   Co musi zawierać Pull Request:
+
+   W opisie musi znaleźć się informacja o znalezionej podatności - co to za podatność, gdzie została znaleziona, sposób jej odtworzenia oraz screen udowadniający jej wystąpienie.
+Commit (zmianę w kodzie), która zawiera wprowadzoną zmianę.
+Oceniany będzie przygotowany Pull Request.
+
+   Aby podesłać zadanie do oceny, konieczne jest nadanie uprawnienia do repozytorium użytkownikowi o nazwie siewer - instrukcja jak nadać dostęp do repozytorium znajduje się tutaj.
+
+   Punktowane będzie wykonanie zadania tylko dla 1 aplikacji - wykonanie zadania zarówno dla aplikacji Java i Python nie będzie dodatkowo punktowane. Możliwe jest jednak uzyskanie dodatkowego punktu (ponad 5) w przypadku zaimplementowania mechanizmu testowania danych wejściowych w scenariuszu weryfikacji poprawnego i niepoprawnego wariantu.
+
+## Punktowanie (ćwiczenie oceniane w skali 0-5 pkt):
+1 punkt za zadanie Domain Driven Design (weryfikacja pliku DDD.md)
+1 punkt za udokumentowanie wystąpienia podatności XSS
+2 punkty za implementację poprawki
+1 punkt za poprawnie stworzony Pull Request
+1 BONUSowy punkt za zaimplementowany test jednostkowy weryfikujący walidator
 
 
 ## Credits
