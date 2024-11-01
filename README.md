@@ -119,11 +119,11 @@ Oceniany będzie przygotowany Pull Request.
    Punktowane będzie wykonanie zadania tylko dla 1 aplikacji - wykonanie zadania zarówno dla aplikacji Java i Python nie będzie dodatkowo punktowane. Możliwe jest jednak uzyskanie dodatkowego punktu (ponad 5) w przypadku zaimplementowania mechanizmu testowania danych wejściowych w scenariuszu weryfikacji poprawnego i niepoprawnego wariantu.
 
 ## Punktowanie (ćwiczenie oceniane w skali 0-5 pkt):
-1 punkt za zadanie Domain Driven Design (weryfikacja pliku DDD.md)
-1 punkt za udokumentowanie wystąpienia podatności XSS
-2 punkty za implementację poprawki
-1 punkt za poprawnie stworzony Pull Request
-1 BONUSowy punkt za zaimplementowany test jednostkowy weryfikujący walidator
+* 1 punkt za zadanie Domain Driven Design (weryfikacja pliku DDD.md)
+* 1 punkt za udokumentowanie wystąpienia podatności XSS
+* 2 punkty za implementację poprawki
+* 1 punkt za poprawnie stworzony Pull Request
+* 1 BONUSowy punkt za zaimplementowany test jednostkowy weryfikujący walidator
 
 
 ## Credits
