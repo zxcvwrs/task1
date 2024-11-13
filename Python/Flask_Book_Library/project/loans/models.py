@@ -1,5 +1,5 @@
 from project import db , app
-
+import re
 
 # Loan model
 class Loan(db.Model):
