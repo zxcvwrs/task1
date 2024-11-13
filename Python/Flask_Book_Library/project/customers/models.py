@@ -14,7 +14,7 @@ class Customer(db.Model):
         if not re.match(r'^[a-zA-Z-]+$', name) or not (1 <= len(name) <= 64):
             raise ValueError(400, "Niepoprawna nazwa klienta. Dozwolone są znaki alfabetyczne i cyfry.")
 
-        if not re.match(r'^[a-zA-Z]+$', author) or not (1 <= len(city) <= 64):
+        if not re.match(r'^[a-zA-Z]+$', city) or not (1 <= len(city) <= 64):
             raise ValueError(400, "Niepoprawna nazwa miasta. Dozwolone są znaki alfabetyczne.")
             
         self.name = name
